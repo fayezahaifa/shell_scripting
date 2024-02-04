@@ -1,10 +1,10 @@
 #!/bin/bash
 
-ITALICRED=$'\e[1;31m'
+GREEN=$'\e[32m'
 
 while  true
 do
        clear
-       echo $ITALICRED $(date +%T)
+       echo $GREEN $(date +%T)
        sleep 1s
 done
